@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.custom-btn {
+  background-color: #dc3545 !important;
+  color: #ffffff !important;
+  border-color: #dc3545 !important;
+}
+.custom-btn:hover {
+  background-color: #ffffff !important;
+  color: #dc3545 !important;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

@@ -1,2 +1,20 @@
+.custom-btn {
+    background-color: #dc3545 !important; 
+    color: #ffffff !important; 
+    border-color: #dc3545 !important; 
+  
+    &:hover {
+      background-color: #ffffff !important; 
+      color: #dc3545 !important; 
+    }
+  }
+
+
+
+
+
+
+
+
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss"
