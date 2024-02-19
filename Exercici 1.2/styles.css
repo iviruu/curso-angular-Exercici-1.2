@@ -9,8 +9,9 @@
   color: #dc3545 !important;
 }
 
-.card-no-top-shadow {
-  box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.75);
+.custom-shadow {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-top: none;
 }
 
 /*!

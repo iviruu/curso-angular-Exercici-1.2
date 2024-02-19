@@ -8,8 +8,9 @@
       color: #dc3545 !important; 
     }
   }
-  .card-no-top-shadow {
-    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.75); // Aplicar sombra solo en los lados y la parte inferior
+  .custom-shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
+    border-top: none; 
   }
 
 
