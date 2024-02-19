@@ -9,6 +9,10 @@
   color: #dc3545 !important;
 }
 
+.card-no-top-shadow {
+  box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

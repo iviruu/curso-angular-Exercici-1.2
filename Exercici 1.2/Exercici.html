@@ -10,6 +10,7 @@
     <title>Exercici 1.2</title>
   </head>
   <body>
+    <!-- parte 1 la navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white my-4 mx-5 px-5">
         <div class="container-fluid mx-4 p-0">
           <a class="navbar-brand justify-content-start" href="#"><img src="Imagenes/logo-bookmark.svg" alt="logo"></a>
@@ -32,7 +33,7 @@
           </div>
         </div>
       </nav>
-
+<!-- parte 2 texto y imagen -->
       <div class="container row ms-5 ps-5 ">
         <div class="row align-self-center col-5 ">
           <h1>A Simple Bookmark Manager</h1>
@@ -41,54 +42,112 @@
           <button type="button" class="btn btn-primary me-2 btn-sm">Get it on Chrome</button>
           <button type="button" class="btn btn-light btn-sm">Get it on Firefox</button>
         </div>
-      </div>
+        </div>
         <div class="row ms-4 col-7">
           <img src="Imagenes/illustration-hero.svg" alt="illustracion">
         </div>
       </div>
+      <!-- parte 3 texto  -->
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-4 ">
+          <div class="col-8 ">
             <h2 class="text-center">Features</h2>
             <p class=" text-center">Our aim to make it quick and easy for you to access your favourite websites. Your boockmarks sync between your devices so you can access them on the go.</p>
           </div>
         </div>
           
         </div>
-      </div>
-
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      
+<!-- parte 4 tabs y imagen con texto  -->
+      
+      <div class="container my-5">
+        <ul class="nav nav-underline justify-content-center gap-0 " id="myTabs" role="tablist">
+          <li class="nav-item border-bottom" role="presentation">
+            <button class="nav-link active p-3" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Simple Bookmarking</button>
+          </li>
+          <li class="nav-item border-bottom" role="presentation">
+            <button class="nav-link p-3 " id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Speedy Saearching</button>
+          </li>
+          <li class="nav-item border-bottom" role="presentation">
+            <button class="nav-link p-3" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Easy Sharing</button>
+          </li>
+        </ul>
+        <div class="tab-content mt-5" id="myTabContent">
+          <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="Imagenes/illustration-features-tab-1.svg" alt="Imagen 1" class="img-fluid">
+              </div>
+              <div class="col-md-6 align-self-center">
+                <h2>Bookmark in one click</h2>
+            <p>Organize yor bookmark hower you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+            <button class="btn btn-primary">More Info</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="Imagenes/illustration-features-tab-2.svg" alt="Imagen 2" class="img-fluid">
+              </div>
+              <div class="col-md-6 align-self-center">
+                <h2>Intelligent search</h2>
+                <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                <button class="btn btn-primary">More Info</button>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="Imagenes/illustration-features-tab-3.svg" alt="Imagen 3" class="img-fluid">
+              </div>
+              <div class="col-md-6 align-self-center">
+                <h2>Share your bookmarks</h2>
+            <p>Easy share your bookmarks and collections with others. Create a shareable link that you can send atthe click of a button.</p>
+            <button class="btn btn-primary">More Info</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active"data-bs-interval="false">
-            <img src="Imagenes/illustration-features-tab-1.svg" class="d-block w-100" alt="imagen1">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+      </div>
+      <!-- part5 frase 2 -->
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-8 ">
+            <h2 class="text-center">Download the extension</h2>
+            <p class=" text-center">We've got more browsers in the pipeline. Please do let us know if you've got a fovourite you'd like us to prioritize.</p>
+          </div>
+        </div>
+          
+        </div>
+        <!-- part6 cards -->
+        <div class="row gap-4">
+          <div class="card border-0 .card-no-top-shadow " style="width: 18rem;">
+            <img src="Imagenes/logo-chrome.svg" class="card-img-top w-50 mx-auto mt-3" alt="imagen chrome">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="false">
-            <img src="Imagenes/illustration-features-tab-2.svg" class="d-block w-100" alt="imagen2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+          <div class="card border-0 .card-no-top-shadow " style="width: 18rem;">
+            <img src="Imagenes/logo-firefox.svg" class="card-img-top w-50 mx-auto mt-3" alt="imagen firefox">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="false">
-            <img src="Imagenes/illustration-features-tab-3.svg" class="d-block w-100" alt="imagen3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+          <div class="card border-0 .card-no-top-shadow " style="width: 18rem;">
+            <img src="Imagenes/logo-opera.svg" class="card-img-top w-50 mx-auto mt-3" alt="imagen opera">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
-      </div>
-
-
 
 
 
