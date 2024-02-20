@@ -11,7 +11,9 @@
   </head>
   <body>
     <!-- parte 1 la navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white my-4 mx-5 px-5">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white my-4 mx-5 px-5">
         <div class="container-fluid mx-4 p-0">
           <a class="navbar-brand justify-content-start" href="#"><img src="Imagenes/logo-bookmark.svg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,24 +35,29 @@
           </div>
         </div>
       </nav>
+      </div>
+    </div>
+    
 <!-- parte 2 texto y imagen -->
-      <div class="container row ms-5 ps-5 ">
-        <div class="row align-self-center col-5 ">
-          <h1>A Simple Bookmark Manager</h1>
-          <p class="lead">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-          <div class="row text-center gap-2 p-0 m-0">
-            <div class="col p-0">
-              <button type="button" class="btn btn-primary p-2 btn-sm">Get it on Chrome</button>
-            </div>
-            <div class="col p-0">
-              <button type="button" class="btn btn-light p-2 btn-sm">Get it on Firefox</button>
-            </div>
-          
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <h1>A Simple Bookmark Manager</h1>
+      <p class="lead">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+      <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-primary">Get it on Chrome</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-light">Get it on Firefox</button>
+          </div>
         </div>
+          </div>
+          <div class="col-7">
+            <img src="Imagenes/illustration-hero.svg" alt="illustracion">
+          </div>
         </div>
-        <div class="row ms-4 col-7">
-          <img src="Imagenes/illustration-hero.svg" alt="illustracion">
-        </div>
+      </div>
       </div>
       <!-- parte 3 texto  -->
       <div class="container">
