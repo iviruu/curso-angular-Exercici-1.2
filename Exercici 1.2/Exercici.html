@@ -38,9 +38,14 @@
         <div class="row align-self-center col-5 ">
           <h1>A Simple Bookmark Manager</h1>
           <p class="lead">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-          <div>
-          <button type="button" class="btn btn-primary me-2 btn-sm">Get it on Chrome</button>
-          <button type="button" class="btn btn-light btn-sm">Get it on Firefox</button>
+          <div class="row text-center gap-2 p-0 m-0">
+            <div class="col p-0">
+              <button type="button" class="btn btn-primary p-2 btn-sm">Get it on Chrome</button>
+            </div>
+            <div class="col p-0">
+              <button type="button" class="btn btn-light p-2 btn-sm">Get it on Firefox</button>
+            </div>
+          
         </div>
         </div>
         <div class="row ms-4 col-7">
@@ -61,7 +66,9 @@
 <!-- parte 4 tabs y imagen con texto  -->
       
       <div class="container my-5">
-        <ul class="nav nav-underline justify-content-center gap-0 " id="myTabs" role="tablist">
+        <div class="row">
+          <div class="col">
+            <ul class="nav nav-underline justify-content-center gap-0 " id="myTabs" role="tablist">
           <li class="nav-item border-bottom" role="presentation">
             <button class="nav-link active p-3" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Simple Bookmarking</button>
           </li>
@@ -74,6 +81,10 @@
         </ul>
         <div class="tab-content mt-5" id="myTabContent">
           <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+          </div>
+          
+        </div>
+        
             <div class="row">
               <div class="col-md-6">
                 <img src="Imagenes/illustration-features-tab-1.svg" alt="Imagen 1" class="img-fluid">

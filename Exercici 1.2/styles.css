@@ -1,12 +1,12 @@
 @charset "UTF-8";
 .custom-btn {
-  background-color: #dc3545 !important;
+  background-color: #FA5959 !important;
   color: #ffffff !important;
-  border-color: #dc3545 !important;
+  border-color: #FA5959 !important;
 }
 .custom-btn:hover {
   background-color: #ffffff !important;
-  color: #dc3545 !important;
+  color: #FA5959 !important;
 }
 
 .custom-shadow {
