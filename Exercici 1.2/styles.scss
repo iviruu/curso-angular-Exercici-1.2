@@ -1,6 +1,6 @@
 $primary:  #5265E1;
 $secondary: #FA5959;
-
+$success: #03092c;
 
 .custom-btn {
     background-color: #FA5959 !important; 
@@ -12,6 +12,36 @@ $secondary: #FA5959;
       color: #FA5959 !important; 
     }
   }
+
+  .custom-btn2 {
+    background-color: #5265E1 !important; 
+    color: #ffffff !important; 
+    border-color: #5265E1 !important; 
+  
+    &:hover {
+      background-color: #ffffff !important; 
+      color: #5265E1 !important; 
+    }
+  }
+
+    .custom-btn3{
+      background-color: #d2d3d7 !important; 
+      color: #ffffff !important; 
+      border-color: #d2d3d7  !important; 
+    
+      &:hover {
+        background-color: #ffffff !important; 
+        color: #a5a6ad  !important; 
+      }
+  }
+  .custom-text{
+    &:hover { 
+      color: #FA5959  !important; 
+      
+    }
+  }
+
+
   .custom-shadow {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
     border-top: none; 
