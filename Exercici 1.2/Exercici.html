@@ -12,9 +12,11 @@
 
   </head>
   <body>
+    
+
     <!-- parte 1 la navbar y texto, imagen-->
-    <div class="container">
-      <div class="row align-items-center">
+    <div class="container-fluid">
+      <div class="row ">
         <nav class="navbar navbar-expand-md navbar-light bg-white my-5">
         <div class="container">
           <a class="navbar-brand justify-content-start" href="#"><img src="Imagenes/logo-bookmark.svg" alt="logo"></a>
@@ -33,7 +35,7 @@
                 <a class="nav-link custom-text" href="#">CONTACT</a>
               </li>
             </ul>
-            <button class="btn custom-btn px-4 mx-5" type="button">LOGIN</button>
+            <button class="btn custom-btn px-4 mx-md-5" type="button">LOGIN</button>
           </div>
         </div>
       </nav>
@@ -42,11 +44,11 @@
           <div class="col-md-5 col-12 order-md-1 order-2 align-self-center">
             <h1>A Simple Bookmark Manager</h1>
       <p class="lead">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-      <div class="row justify-content-start ">
-        <div class="col-4 ">
+      <div class="row justify-content-start text ">
+        <div class="col-6">
               <button type="button" class="btn btn-primary custom-btn2">Get it on Chrome</button>
             </div>
-            <div class="col-4">
+            <div class="col-6">
               <button type="button" class="btn btn-light custom-btn3 text-black">Get it on Firefox</button>
           </div>
             </div>
@@ -54,14 +56,19 @@
             
             
           <div class="col-md-7 col-12 order-md-2 order-1 mb-5">
-            <img class="img-fluid" src="Imagenes/illustration-hero.svg" alt="illustracion">
+            <div class="contenido_1">
+              <img class="img-fluid" src="Imagenes/illustration-hero.svg" alt="illustracion">
+                          <div class="fondo_azul1">
+              </div>
+            </div>
+              
           </div>
         </div>
       </div>
       
 
       <!-- parte 2 bars y frase  -->
-      <div class="container ">
+      <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-8 mb-4">
             <h2 class="text-center">Features</h2>
@@ -87,11 +94,17 @@
                 <div class="col mb-5">
                   <div class="tab-content">
                     <div class="tab-pane container active" id="home">
-                      <div class="row gx-5">
-                        <div class="col-md-6 mb-5">
-                          <img src="Imagenes/illustration-features-tab-1.svg" alt="Imagen 1" class="img-fluid">
+                      <div class="row justify-content-center gx-5">
+                        <div class="col-md-6 mb-5 ">
+                          <div class="contenido_2">
+                            <img src="Imagenes/illustration-features-tab-1.svg" alt="Imagen 1" class="img-fluid">
+                            <div class="fondo_azul2">
+                          </div>
+                          </div>
+                          
+
                         </div>
-                        <div class="col-md-5 align-self-center ms-5">
+                        <div class="col-md-5 text-center align-self-center ">
                           <h2>Bookmark in one click</h2>
                       <p>Organize yor bookmark hower you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
                       <button class="btn btn-primary">More Info</button>
@@ -101,7 +114,11 @@
                     <div class="tab-pane container fade" id="menu1">
                       <div class="row">
                         <div class="col-md-6 mb-5">
-                          <img src="Imagenes/illustration-features-tab-2.svg" alt="Imagen 2" class="img-fluid">
+                          <div class="contenido_2">
+                            <img src="Imagenes/illustration-features-tab-2.svg" alt="Imagen 2" class="img-fluid">
+                            <div class="fondo_azul2"></div>
+                          </div>
+                          
                         </div>
                         <div class="col-md-6 align-self-center">
                           <h2>Intelligent search</h2>
@@ -113,7 +130,11 @@
                     <div class="tab-pane container fade" id="menu2">
                       <div class="row">
                         <div class="col-md-6 mb-5">
-                          <img src="Imagenes/illustration-features-tab-3.svg" alt="Imagen 3" class="img-fluid">
+                          <div class="contenido_2">
+                            <img src="Imagenes/illustration-features-tab-3.svg" alt="Imagen 3" class="img-fluid">
+                            <div class="fondo_azul2"></div>
+                          </div>
+                          
                         </div>
                         <div class="col-md-6 align-self-center mb-5">
                           <h2>Share your bookmarks</h2>
@@ -128,7 +149,7 @@
                 </div>
               
       <!-- part3 frase y tarjetas -->
-      <div class="container mt-5">
+      <div class="container-fluid mt-5">
         <div class="row justify-content-center">
           <div class="col-7 text-center">
             <h2>Download the extension</h2>
@@ -136,7 +157,7 @@
           </div>
         </div>
         </div>
-        <div class="container text-center">
+        <div class="container-fluid text-center">
           <div class="row mt-4 justify-content-center">
           <div class="col-md-3 col-8 mb-3 mb-md-0">
             <div class="card border-0 custom-shadow" >
@@ -176,7 +197,7 @@
         
         
       <!-- parte 4 texto  -->
-      <div class="container mt-5">
+      <div class="container-fluid mt-5">
         <div class="row justify-content-center ">
           <div class="col-6 ">
             <h2 class="text-center">Frequently Asked Questions</h2>
@@ -187,7 +208,7 @@
 
     
         <!-- parte 5 acordeon -->
-      <div class="container justify-content-center col-6 my-5">
+      <div class="container-fluid justify-content-center col-6 my-5">
         <div class="accordion border-start-0" id="accordionExample">
           <div class="accordion-item border-0 border-bottom ">
             <h2 class="accordion-header">
@@ -245,7 +266,7 @@
         </div>
 
         <!-- parte 6 el boton -->
-        <div class="container text-center ">
+        <div class="container-fluid text-center ">
           <div class="row justify-content-center ">
             <div class="col mb-5">
               <button type="button" class="btn btn-primary py-2 px-4">More Info</button>
@@ -255,7 +276,7 @@
 
         <!-- parte 7 para contactar -->
 
-        <div class="container text-center bg-primary mt-5 pb-5">
+        <div class="container-fluid text-center bg-primary mt-5 pb-5">
             <div class="row justify-content-center">
               <div class="col-12 col-md-3 mt-5 mb-3">
                 <p class="text-light">35.000 + ALREADY JOINED</p>
@@ -282,7 +303,7 @@
           </div>
         </div>
 
-        <div class="container bg-success text-center pt-5">
+        <div class="container-fluid bg-success text-center pt-5">
             <div class="row align-items-center ">
               <div class="col-12 col-md-2 pb-4 offset-md-1 ">
                 <img src="Imagenes/logo-bookmark.svg" class="" alt="logo">
@@ -295,8 +316,8 @@
                 </nav>
               </div>
               <div class="col-12 col-md-4 pb-4">
-                <img src="Imagenes/icon-facebook.svg" class=" me-4 " alt="logo facebook">
-                <img src="Imagenes/icon-twitter.svg" class="" alt="logo twiter">
+                <img src="Imagenes/icon-facebook.svg" class="icono me-4 " alt="logo facebook">
+                <img src="Imagenes/icon-twitter.svg" class="icono" alt="logo twiter">
               </div>
             </div>
           </div>
