@@ -25,9 +25,14 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/extensions/simple-datatables/style.css",
+              "src/assets/scss/pages/simple-datatables.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/extensions/simple-datatables/umd/simple-datatables.js",
+              "src/assets/static/js/pages/simple-datatables.js"
+            ]
           },
           "configurations": {
             "production": {
