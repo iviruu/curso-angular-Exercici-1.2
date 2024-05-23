@@ -25,13 +25,22 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/compiled/css/app.css",
+              "src/assets/compiled/css/app-dark.css",
               "src/assets/extensions/simple-datatables/style.css",
-              "src/assets/scss/pages/simple-datatables.scss",
               "src/styles.css"
             ],
             "scripts": [
+              "src/assets/static/js/initTheme.js",
               "src/assets/extensions/simple-datatables/umd/simple-datatables.js",
-              "src/assets/static/js/pages/simple-datatables.js"
+              "src/assets/static/js/pages/simple-datatables.js",
+              "src/assets/static/js/components/dark.js",
+              "src/assets/static/js/pages/horizontal-layout.js",
+              "src/assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js",    
+              "src/assets/compiled/js/app.js",
+              "src/assets/extensions/apexcharts/apexcharts.min.js",
+              "src/assets/static/js/pages/dashboard.js"
+
             ]
           },
           "configurations": {
